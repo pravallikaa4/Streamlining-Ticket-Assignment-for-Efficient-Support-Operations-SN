@@ -1,0 +1,38 @@
+Day 2 – Custom Table Setup and Access Restrictions
+
+Objective:
+Design a custom table to track operations-related issues, define its structure, and apply access control using roles and ACLs.
+
+Work Completed:
+
+Table Creation: Built a custom table under System Definition → Tables named Operations Related. Enabled both Create module and Create mobile module. Added fields to capture issue details.
+
+Choice Field Setup: Using Form Design, added options for the Issue field:
+
+Unable to log in to platform
+
+404 error
+
+Certificate-related queries
+
+Expired user issue
+
+Group Assignments:
+
+Katherine Pierce assigned to Certificates Group (Certification_role).
+
+Manne Niranjan assigned to Platform Group (Platform_role).
+
+Access Restrictions: Configured table permissions so only Platform_role and Certification_role can perform read/write actions. Elevated to security_admin role for changes.
+
+ACL Configuration: Defined new ACLs for table fields under System Security → Access Control. Linked admin role where required.
+
+Evidence: Screenshots captured for table creation, form design, group mapping, and ACL setup.
+
+Deliverables:
+
+Exported Update Set including Operations Related table and related ACLs.
+
+Stored screenshots in project folder.
+
+Updated documentation with the configurations.

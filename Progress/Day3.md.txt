@@ -1,0 +1,40 @@
+Day 3 – Automation with Flow Designer
+
+Objective:
+Implement automation using Flow Designer to ensure issues are automatically routed to the appropriate group depending on the type of request.
+
+Work Completed:
+
+Flow 1 – Certificate Issues:
+
+Trigger: Record created/updated in Operations Related table.
+
+Condition: Issue = “Regarding Certificates”.
+
+Action: Update record → Assign to Certificates Group.
+
+Flow 2 – Platform Issues:
+
+Trigger: Record created/updated in Operations Related table.
+
+Conditions:
+
+Issue = “Unable to login to platform”
+
+Issue = “404 Error”
+
+Issue = “Regarding User expired”
+
+Action: Update record → Assign to Platform Group.
+
+Both flows were saved, tested, and activated.
+
+Screenshots captured for flow setup, triggers, conditions, actions, and activation steps.
+
+Deliverables:
+
+Exported Update Set containing the Flow Designer automation.
+
+Saved screenshots in the respective folder.
+
+Updated documentation with flow details.
